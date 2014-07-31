@@ -15,14 +15,15 @@ module.exports={
                             "id": "1746f2e5-31ab-5328-4452-c5d19da65f8a",
                             "match": "find.qq.com/js/delay.js",
                             "action": "delay(5)",
-                            "checked": true,
-                            "leaf": true
+                            "checked": false,
+                            "leaf": true,
+                            "name": ""
                         },
                         {
                             "match": "find.qq.com/js/find.all.js",
                             "action": "./tools/find.all.qzmin",
                             "leaf": true,
-                            "checked": true,
+                            "checked": false,
                             "name": "",
                             "id": "a611fd05-ebe8-e83b-7212-73473eb8e033"
                         },
@@ -30,7 +31,7 @@ module.exports={
                             "match": "find.qq.com/css/comp.css",
                             "action": "./css/main.css|./css/sub1.css",
                             "leaf": true,
-                            "checked": true,
+                            "checked": false,
                             "name": "",
                             "id": "b75e98ad-9988-a722-6104-bb477daa4c90"
                         },
@@ -38,7 +39,7 @@ module.exports={
                             "match": "find.qq.com/js/catalog.js",
                             "action": "http://pub.idqqimg.com/qqfind/js/groupcatalog.js",
                             "leaf": true,
-                            "checked": true,
+                            "checked": false,
                             "name": "",
                             "id": "8e38126c-1cc0-29e5-94a9-e8954e26bc2f"
                         },
@@ -46,7 +47,7 @@ module.exports={
                             "match": "find.qq.com/|*.idqqimg.com/qqfind/",
                             "action": "./",
                             "leaf": true,
-                            "checked": true,
+                            "checked": false,
                             "name": "",
                             "id": "6fafab19-8c7a-8a66-0897-5aa613744b02"
                         },
@@ -54,12 +55,28 @@ module.exports={
                             "match": "find.qq.com/index.html",
                             "action": "./__index.html",
                             "leaf": true,
-                            "checked": true,
+                            "checked": false,
                             "name": "",
                             "id": "77cd1499-9a17-de66-ffc9-e0cc60a4665e"
+                        },
+                        {
+                            "id": "371dd9a3-014d-f22b-ba20-acbe03c1b839",
+                            "match": "http://home.51cto.com/index.php?s=/Index/getLoginStatus/reback/http%253A%252F%252Ffreeloda.blog.51cto.com%252F2033581%252F1294094",
+                            "action": "~/Desktop/untitled2.html",
+                            "checked": false,
+                            "leaf": true,
+                            "name": ""
+                        },
+                        {
+                            "id": "1da8ea84-0dd8-6e67-3bbd-681c9c348649",
+                            "match": "http://freeloda.blog.51cto.com/2033581/1294094",
+                            "action": "/Users/chenallan/Desktop/untitled.html",
+                            "checked": false,
+                            "leaf": true,
+                            "name": ""
                         }
                     ],
-                    "checked": true,
+                    "checked": false,
                     "match": "",
                     "action": "",
                     "enableDrag": false,

@@ -3,7 +3,7 @@ module.exports={
     "proxy": false,
     "disablePool": false,
     "disableCache": false,
-    "autoScroll": false,
+    "autoScroll": true,
     "speedLimit": "Disabled",
     "showSession": "200",
     "layout": "Wide",
